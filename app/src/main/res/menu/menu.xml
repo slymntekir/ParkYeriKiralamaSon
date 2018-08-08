@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="">
+    <item
+        android:id="@+id/hakkinda"
+        android:title="Hakkinda"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_cikis"
+        android:title="@string/cikisyap"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_power_settings_new_white_48dp"
+        app:showAsAction="always" />
+
+</menu>

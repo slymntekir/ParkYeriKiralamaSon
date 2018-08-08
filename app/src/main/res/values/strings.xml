@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">ParkYeriKiralama</string>
+    <string name="api_key">AIzaSyAEqmh2VWc_0xpb126TYKa8n6yy7ABMve8</string>
+    <string name="musteri_ekle">http://10.0.2.2:8084/ParkYeriKiralamaRest/parkyeri/databases/musteriekle</string>
+    <string name="settins">Settins</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="secim_ekrani">Seçim Ekranı</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="tl_yukle">Tl Yükleme Ekranı</string>
+    <string name="py_ara">Park Yeri Arama Ekranı</string>
+    <string name="yol_tarifi">Yol Tarifi(Navigasyon)</string>
+    <string name="kiralanmis">Kiralanan Alanlar</string>
+    <string name="guncelle">Guncelleme Ekranı</string>
+    <string name="kayit_ekrani">Kayıt Ekranı</string>
+
+    <string-array name="miktarlar">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="saats">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="dakikas">
+        <item>00</item>
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_secim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suleyman.parkyerikiralama.SecimActivity"
+    android:orientation="vertical"
+    android:background="@drawable/doga2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Park Yeri Ara"
+        android:background="@drawable/custom_button"
+        android:onClick="parkYeriAra"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+    <!--
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Deneme 2"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Tl Yükle"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:onClick="tlYukle"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Kiraladığım Yerleri Göster"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:onClick="kiralanmisYerleriGoster"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Bilgilerimi Güncelle"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:onClick="bilgileriGuncelle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:background="#19c928"
+        android:textStyle="bold"
+        android:id="@+id/tv_bakiye"/>
+</LinearLayout>

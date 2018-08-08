@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guncelle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suleyman.parkyerikiralama.GuncelleActivity"
+    android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tc Numarası"
+            android:id="@+id/edtGuncelle_tc"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad"
+            android:id="@+id/edtGuncelle_ad"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soyad"
+            android:id="@+id/edtGuncelle_soyad"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E Mail"
+            android:id="@+id/edtGuncelle_email"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Adres"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:id="@+id/edtGuncelle_adres"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı Adı"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:id="@+id/edtGuncelle_kullaniciAdi"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:id="@+id/edtGuncelle_sifre"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifreyi Tekrar Giriniz"
+            android:textAlignment="center"
+            android:textColorHint="#034fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:id="@+id/edtGuncelle_sifre2"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Araç Plaka"
+            android:textAlignment="center"
+            android:textColorHint="#032fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:id="@+id/edtGuncelle_plaka"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefon Numarası"
+            android:textAlignment="center"
+            android:textColorHint="#032fac"
+            android:textColor="#000"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:id="@+id/edtGuncelle_telNo"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Güncelle"
+            android:background="@drawable/custom_button"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="guncelle"/>
+
+</LinearLayout>
